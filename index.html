@@ -66,23 +66,42 @@
     </div>
 
     <p>
-		<b>UPDATE:</b> if you aren't using the development version of Geany from Git or Subversion, you need to use the deprecated branch instead. The current master branch is using a new feature since the last Geany release and so is not compatible.
+		<b>UPDATE:</b> if you aren't using the development version of
+		Geany from Git or Subversion, you need to use the deprecated
+		branch instead. The current master branch is using a new
+		feature since the last Geany release and so is not compatible.
 	</p>
 
 	<p>
-		<b>UPDATE:</b> Since Geany r5596, the substitution and mappings hackery is no longer needed. Geany now supports copying the styling of one filetype to another. I've removed those parts from geany-themes, simplifying the entire project. Sweet!
+		<b>UPDATE:</b> Since Geany r5596, the substitution and mappings
+		hackery is no longer needed. Geany now supports copying the
+		styling of one filetype to another. I've removed those parts
+		from geany-themes, simplifying the entire project. Sweet!
 	</p>
 	<hr/>
 	<p>
-		geany-themes is a set of filedefs and colorschemes containing some really nice themes. I have ported almost all of the existing Geany themes I could find to use the new filedefs so that you can still use those if you like them. Also included is an alt.conf theme, ported from Geany to make sure you can still use that as well, if you like it.
+		<a href="http://github.com/codebrainz/geany-themes">geany-themes</a>
+		is a set of filedefs and colorschemes containing some really
+		nice themes. I have ported almost all of the existing Geany
+		themes I could find to use the new filedefs so that you can
+		still use those if you like them. Also included is an alt.conf
+		theme, ported from Geany to make sure you can still use that
+		as well, if you like it.
 	</p>
 
 	<p>
-		Some of the new themes were ported from the gedit-themes and I plan to port the rest of them. There is also a bunch of available themes for vim and TextMate that would also be nice to port.
+		Some of the new themes were ported from the gedit-themes and
+		I plan to port the rest of them. There is also a bunch of
+		available themes for vim and TextMate that would also be
+		nice to port.
 	</p>
 
 	<p>
-		Your help creating new themes and checking the filedefs/filetype.* files would be greatly appreciated. You can use one of the existing themes as a starting point and there is more information in the Geany Manual. No programming skills are required at all to help out.
+		Your help creating new themes and checking the
+		filedefs/filetype.* files would be greatly appreciated. You can
+		use one of the existing themes as a starting point and there
+		is more information in the Geany Manual. No programming skills
+		are required at all to help out.
 	</p>
 
 	<hr/>
@@ -94,18 +113,22 @@
 
 	<h2>Install</h2>
 	<p>
-		<b>NOTE:</b> this will overwrite any of your customized filedefs/colorschemes in your home directory, you may want to back them up first, for example:
+		<b>NOTE:</b> this will overwrite any of your customized
+		filedefs/colorschemes in your home directory, you may want to
+		back them up first, for example:
 		<pre>$ cd ~/.config/geany
 $ tar cjf themes-orig.tar.bz2 colorschemes/ filedefs/</pre>
 	</p>
 
 	<p>
-		Copy all the filetypes.* files from the filedefs dir into your Geany filedefs dir, for example ~/.config/geany/filedefs.
+		Copy all the filetypes.* files from the filedefs dir into your
+		Geany filedefs dir, for example ~/.config/geany/filedefs.
 		<pre>$ cp -v filedefs/filetypes.* ~/.config/geany/filedefs</pre>
 	</p>
 
 	<p>
-		Copy all the *.conf files from the colorschemes dir into your Geany colorschemes dir, for example ~/.config/geany/colorschemes.
+		Copy all the *.conf files from the colorschemes dir into your
+		Geany colorschemes dir, for example ~/.config/geany/colorschemes.
 		<pre>$ cp -v colorschemes/*.conf ~/.config/geany/colorschemes</pre>
 	</p>
 
