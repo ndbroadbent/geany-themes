@@ -33,8 +33,17 @@
 		padding: 15px;
 		border: 1px solid #747E80;
 	}
-    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
-    .footer { text-align:center; padding-top:30px; font-style: italic; }
+    hr {
+		border: 0;
+		width: 80%;
+		border-bottom: 1px solid #77BED2;
+	}
+    .footer
+    {
+		text-align: center;
+		padding-top: 30px;
+		font-style: italic;
+	}
   </style>
 </head>
 
@@ -63,7 +72,7 @@
 	<p>
 		<b>UPDATE:</b> Since Geany r5596, the substitution and mappings hackery is no longer needed. Geany now supports copying the styling of one filetype to another. I've removed those parts from geany-themes, simplifying the entire project. Sweet!
 	</p>
-
+	<hr/>
 	<p>
 		geany-themes is a set of filedefs and colorschemes containing some really nice themes. I have ported almost all of the existing Geany themes I could find to use the new filedefs so that you can still use those if you like them. Also included is an alt.conf theme, ported from Geany to make sure you can still use that as well, if you like it.
 	</p>
@@ -76,27 +85,36 @@
 		Your help creating new themes and checking the filedefs/filetype.* files would be greatly appreciated. You can use one of the existing themes as a starting point and there is more information in the Geany Manual. No programming skills are required at all to help out.
 	</p>
 
+	<hr/>
 
-<h2>Dependencies</h2>
-<p>Geany 0.20 or higher.</p>
-<h2>Install</h2>
-<p>
-	<b>NOTE:</b> this will overwrite any of your customized filedefs/colorschemes in your home directory, you may want to back them up first, for example:
+	<h2>Dependencies</h2>
+	<p>Geany 0.20 or higher.</p>
 
-<pre>$ cd ~/.config/geany
+	<hr/>
+
+	<h2>Install</h2>
+	<p>
+		<b>NOTE:</b> this will overwrite any of your customized filedefs/colorschemes in your home directory, you may want to back them up first, for example:
+		<pre>$ cd ~/.config/geany
 $ tar cjf themes-orig.tar.bz2 colorschemes/ filedefs/</pre>
+	</p>
 
-Copy all the filetypes.* files from the filedefs dir into your Geany filedefs dir, for example ~/.config/geany/filedefs.
+	<p>
+		Copy all the filetypes.* files from the filedefs dir into your Geany filedefs dir, for example ~/.config/geany/filedefs.
+		<pre>$ cp -v filedefs/filetypes.* ~/.config/geany/filedefs</pre>
+	</p>
 
-<pre>$ cp -v filedefs/filetypes.* ~/.config/geany/filedefs</pre>
+	<p>
+		Copy all the *.conf files from the colorschemes dir into your Geany colorschemes dir, for example ~/.config/geany/colorschemes.
+		<pre>$ cp -v colorschemes/*.conf ~/.config/geany/colorschemes</pre>
+	</p>
 
-Copy all the *.conf files from the colorschemes dir into your Geany colorschemes dir, for example ~/.config/geany/colorschemes.
+	<hr/>
 
-<pre>$ cp -v colorschemes/*.conf ~/.config/geany/colorschemes</pre>
-</p>
-<h2>Authors</h2>
-<p>Matthew Brush &lt;matthewbrush(at)gmail(dot)com&gt;<br/><br/>      </p>
+	<h2>Authors</h2>
+	<p>Matthew Brush &lt;matthewbrush(at)gmail(dot)com&gt;	<br/></p>
 
+	<hr/>
 
     <h2>Download</h2>
     <p>
