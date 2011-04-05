@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+
+  <title>codebrainz/geany-themes @ GitHub</title>
+
+  <style type="text/css">
+    body {
+      margin-top: 1.0em;
+      background-color: #7af218;
+      font-family: Helvetica, Arial, FreeSans, san-serif;
+      color: #000000;
+    }
+    #container {
+      margin: 0 auto;
+      width: 700px;
+    }
+    h1 { font-size: 3.8em; color: #850de7; margin-bottom: 3px; }
+    h1 .small { font-size: 0.4em; }
+    h1 a { text-decoration: none }
+    h2 { font-size: 1.5em; color: #850de7; }
+    h3 { text-align: center; color: #850de7; }
+    a { color: #850de7; }
+    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
+    .download { float: right; }
+    pre { background: #000; color: #fff; padding: 15px;}
+    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
+    .footer { text-align:center; padding-top:30px; font-style: italic; }
+  </style>
+</head>
+
+<body>
+  <a href="http://github.com/codebrainz/geany-themes"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+
+  <div id="container">
+
+    <div class="download">
+      <a href="http://github.com/codebrainz/geany-themes/zipball/master">
+        <img border="0" width="90" src="http://github.com/images/modules/download/zip.png"></a>
+      <a href="http://github.com/codebrainz/geany-themes/tarball/master">
+        <img border="0" width="90" src="http://github.com/images/modules/download/tar.png"></a>
+    </div>
+
+    <h1><a href="http://github.com/codebrainz/geany-themes">geany-themes</a>
+      <span class="small">by <a href="http://github.com/codebrainz">codebrainz</a></span></h1>
+
+    <div class="description">
+      A collection of color schemes for Geany.
+    </div>
+
+    <p>UPDATE: if you aren't using the development version of Geany from Git or Subversion, you need to use the deprecated branch instead. The current master branch is using a new feature since the last Geany release and so is not compatible.
+
+geany-themes is a set of filedefs and colorschemes containing some really nice themes. I have ported almost all of the existing Geany themes I could find to use the new filedefs so that you can still use those if you like them. Also included is an alt.conf theme, ported from Geany to make sure you can still use that as well, if you like it.
+
+Some of the new themes were ported from the gedit-themes and I plan to port the rest of them. There is also a bunch of available themes for vim and TextMate that would also be nice to port.
+
+Your help creating new themes and checking the filedefs/filetype.* files would be greatly appreciated. You can use one of the existing themes as a starting point and there is more information in the Geany Manual. No programming skills are required at all to help out.
+
+UPDATE: Since Geany r5596, the substitution and mappings hackery is no longer needed. Geany now supports copying the styling of one filetype to another. I've removed those parts from geany-themes, simplifying the entire project. Sweet!</p><h2>Dependencies</h2>
+<p>Geany 0.20 or higher.</p>
+<h2>Install</h2>
+<p>NOTE: this will overwrite any of your customized filedefs/colorschemes in your home directory, you may want to back them up first, for example:
+
+$ cd ~/.config/geany
+$ tar cjf themes-orig.tar.bz2 colorschemes/ filedefs/
+
+Copy all the filetypes.* files from the filedefs dir into your Geany filedefs dir, for example ~/.config/geany/filedefs.
+
+$ cp -v filedefs/filetypes.* ~/.config/geany/filedefs
+
+Copy all the *.conf files from the colorschemes dir into your Geany colorschemes dir, for example ~/.config/geany/colorschemes.
+
+$ cp -v colorschemes/*.conf ~/.config/geany/colorschemes
+</p>
+<h2>Authors</h2>
+<p>Matthew Brush &lt;matthewbrush(at)gmail(dot)com&gt;<br/><br/>      </p>
+
+
+    <h2>Download</h2>
+    <p>
+      You can download this project in either
+      <a href="http://github.com/codebrainz/geany-themes/zipball/master">zip</a> or
+      <a href="http://github.com/codebrainz/geany-themes/tarball/master">tar</a> formats.
+    </p>
+    <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
+      by running:
+      <pre>$ git clone git://github.com/codebrainz/geany-themes</pre>
+    </p>
+
+    <div class="footer">
+      get the source code on GitHub : <a href="http://github.com/codebrainz/geany-themes">codebrainz/geany-themes</a>
+    </div>
+
+  </div>
+
+  
+</body>
+</html>
