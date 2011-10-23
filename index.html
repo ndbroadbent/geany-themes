@@ -90,51 +90,55 @@
       A collection of color schemes for Geany.
     </div>
 		<hr/>
+  
+  <span style="font-size: smaller;">
     <p>
-		<span style="font-size: smaller;">
-		<b>UPDATE:</b> if you aren't using the development version of
-		Geany from Git or Subversion, you need to use the
-		<a href="https://github.com/codebrainz/geany-themes/tree/deprecated">deprecated
-		branch</a> instead of the master branch. The current master
-		branch is using a new feature (see below) since the last Geany
-		release and so is not compatible.
-		</span>
-	</p>
-
-	<p>
-		<span style="font-size: smaller;">
-		<b>UPDATE:</b> Since Geany r5596, the substitution and mappings
-		hackery is no longer needed. Geany now supports copying the
-		styling of one filetype to another. I've removed those parts
-		from geany-themes, simplifying the entire project. <em>Sweet!</em>
-		</span>
-	</p>
+      <b>UPDATE:</b> the geany-themes branches were renamed to follow the correct
+      Geany version number.  Use branch `0.20` for Geany 0.20, branch `0.21` for 
+      Geany 0.21, and `master` if you're building Geany from its `master` Git branch.
+    </p>
+    <p>
+      <b>UPDATE:</b> after Geany 0.21, the filedefs from geany-themes have been
+      merged into Geany proper so only the colour scheme *.conf files are needed.
+    </p>  
+    <p>
+      <b>UPDATE:</b> if you aren't using the development version of
+      Geany from Git or Subversion, you need to use the
+      <a href="https://github.com/codebrainz/geany-themes/tree/deprecated">deprecated
+      branch</a> instead of the master branch. The current master
+      branch is using a new feature (see below) since the last Geany
+      release and so is not compatible.
+    </p>
+    <p>
+      <span style="font-size: smaller;">
+      <b>UPDATE:</b> Since Geany r5596, the substitution and mappings
+      hackery is no longer needed. Geany now supports copying the
+      styling of one filetype to another. I've removed those parts
+      from geany-themes, simplifying the entire project. <em>Sweet!</em>
+      </span>
+    </p>
+  </span>
 	<hr/>
 	<p>
 		<span style="font-size: bigger;">
 			<a href="http://github.com/codebrainz/geany-themes">geany-themes</a>
 		</span>
-		is a set of filedefs and colorschemes containing some really
+		is a set of color schemes containing some really
 		nice themes. I have ported almost all of the existing Geany
-		themes I could find to use the new filedefs so that you can
-		still use those if you like them. Also included is an alt.conf
-		theme, ported from Geany to make sure you can still use that
-		as well, if you like it.
+		themes I could find.
 	</p>
 
 	<p>
 		Some of the new themes were ported from the gedit-themes and
-		I plan to port the rest of them. There is also a bunch of
+		I plan to eventually port the rest of them. There is also a bunch of
 		available themes for vim and TextMate that would also be
 		nice to port.
 	</p>
 
 	<p>
-		Your help creating new themes and checking the
-		filedefs/filetype.* files would be greatly appreciated. You can
-		use one of the existing themes as a starting point and there
-		is more information in the Geany Manual. No programming skills
-		are required at all to help out.
+		You can create your own theme by using one of the existing themes as 
+    a starting point and there is more information in the Geany Manual. No 
+    programming skills are required at all to create your own theme.
 	</p>
 	<!-- TODO: finish this/ use Lightbox2
 	<hr/>
@@ -212,28 +216,14 @@
 	-->
 	<h2>Dependencies</h2>
 	<p>Geany 0.20 or higher.</p>
-
+  <p><b>Note:</b> make sure you checkout the correct branch of geany-themes
+  for the Geany version you are running.  See the README.md file for more
+  information.</p>
 	<hr/>
 
 	<h2>Install</h2>
 	<p>
-		<b>NOTE:</b> this will overwrite any of your customized
-		filedefs/colorschemes in your home directory, you may want to
-		back them up first, for example:
-		<pre>$ cd ~/.config/geany
-$ tar cjf themes-orig.tar.bz2 colorschemes/ filedefs/</pre>
-	</p>
-
-	<p>
-		Copy all the filetypes.* files from the filedefs dir into your
-		Geany filedefs dir, for example ~/.config/geany/filedefs.
-		<pre>$ cp -v filedefs/filetypes.* ~/.config/geany/filedefs</pre>
-	</p>
-
-	<p>
-		Copy all the *.conf files from the colorschemes dir into your
-		Geany colorschemes dir, for example ~/.config/geany/colorschemes.
-		<pre>$ cp -v colorschemes/*.conf ~/.config/geany/colorschemes</pre>
+    See the README.md file for installation instructions.
 	</p>
 
 	<hr/>
